@@ -17,3 +17,8 @@ I mannualy create a `mountcheck.txt` file in the NAS directory for Frigate. Then
 ...
 ```
 
+## Usage
+1. Create a `mountcheck.txt` file in the NAS directory for Frigate.
+2. Modify the path in the https://github.com/upsangel/check-nas-mount/blob/main/mountcheck.sh
+3. Save in your machine and `chmod +x` to allow execute.
+4. Add it in the `crontab`
